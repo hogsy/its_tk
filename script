@@ -1,0 +1,1 @@
+setpal,0,1setuseobj,0,1,10setobjpos,10,d000,24580,16000setobjflags,0,1setobjpos,0,10000,20000,10000setobjrotaim,10,0,0,2000,800setaimobj,10,0,60,0,2000,800setobjrot,0,0,000,0wait,200playanim,0,4,10,100,5wait,500playanim,0,4,11,100,5wait,500playanim,0,4,12,100,5wait,500testing123testing123testingtesttestita

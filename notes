@@ -1,0 +1,405 @@
+The packed EXE ends at 175869 bytes into the file
+
+20 is ' '
+0A is '\n'
+0D is '\r'
+
+TVR procedure texture definition file
+This is declared 2406022 bytes in
+Possibly 254 bytes? - unable to find any clues
+
+There's another application entry at OFFSET BC292 (770706)
+Also appears to be compressed, it's exactly the same size too
+Ends at 946575 bytes in
+
+Applications might be decompressor for actual main executables?
+And very possibly, both of these executables are possibly the same... (one is older version?)
+7b91849c1eb382d8bcd6b6df37b7ebd4  ./TSUPTMP0_A.EXE (first executable, the one we usually run)
+fd2ee0a985a02783adc5b159a1b346a1  ./TSUPTMP0.$$$   (second executable, this one will crash on launch)
+
+0002:CEE0
+0003:1894 > 0003:1930    decompression table
+0003:192F > 000B:C292    debug output
+000B:C292 > 000E:A8D3(?) second executable
+000E:A8E7 > 000E:ACD3    decompression table
+000E:ACD3 > 000E:E8D6    notes by Mr.H regarding 486 instruction set
+000E:E8D6 > ....:....    unknown
+000F:08DE > 000F:30EC    g:\units\arctab.dat
+000F:30EC > 000F:349A    unknown
+000F:349A > 000F:631A    ILBM
+000F:631A > ....:....    ILBM
+
+0015:85B8 > ....:....    animation file (H:\CS_VECTR\NIL.TVA)
+
+0018:C659 > 001F:8707(?) swap file (H:\RAYMAPS\D1_TXTUR.SWP(?))
+001F:8707 > 0022:8B93    swap file
+0022:8B93 > ....:....    swap file
+
+0022:E930 > ....:....    texture data?
+0022:EBF0 > ....:....    texture data?
+0022:F280                texture data?
+
+0026:C9D0 > 0027:48CA    table used for shading (possibly H:\CS_DEMO\D1_AMSHD.DAT)
+0027:48CA > 0028:0B2F(?) seems to deal with transparency on the animated flame sprite?
+0028:58CA                possibly the end of this transparency table mentioned above - not 100%
+0029:48CA > ....:....    ILBM
+002A:2ADC > ....:....    Animation Definition File
+002A:5081 > 002A:50C4    swap file
+002A:50C5 > ....:....    animation file (H:\CS_DEMO\D1_ANIM.TVA)
+
+0032:7E19 > ....:....    swap file
+
+003A:CAC7 > ....:....    ILBM
+
+004B:2078 > 004B:3CFE    demonstration script
+004B:3CFE > ....:....    save game (D1_START.SAV(?))
+
+0040:6D3D > ....:....    music track
+0045:3A62 > ....:....    ILBM
+0048:6406 > ....:....    ILBM
+0048:A888 > ....:....    ILBM
+
+there are 11 swap files
+_______________________________________________
+
+Some guesstimates to the game's little script that's used
+for laying out the intro sequence and how each of the 'functions'
+operate for the demo...
+
+setuseobj      ,<obj>,<?>,<?>                           doesn't appear to actually do anything
+setobjpos      ,<obj>,<x>,<y>,<z>
+setobjrot      ,<obj>,<?>,<?>,<?>
+setvrobjflags  ,<obj>,<flag>
+setaimobj      ,<obj>,<obj_targ>,<?>,<?>,<?>,<?>
+setobjrotaim   ,<obj>,<obj_targ>,<?>,<?>,<?>
+setpal         ,<col0>,<col1> (0,1 = fade-in from white > 1,1 = fade-out to black)
+playanim       ,<obj>,<flag>,<animation>,<speed>,<?>
+
+obj 0  = Erik
+obj 1  = Zombie #1
+obj 2  = Zombie #2
+obj 3  = Skeleton
+obj 5  = Orc
+obj 6  = ?
+obj 7  = ?
+obj 8  = ?
+obj 9  = ?
+obj 10 = camera
+
+flag 43 = possibly hides the object?
+flag 63 = possibly shows the object?
+Further testing leads me to think these have more to do with
+how the objects are simulated in the game
+
+Just confirmed the above!
+    ;     Visible        = $0020;  { Ej visible => Ej Hitable }
+    ;     Vector         = $0040;
+
+Objects 6 and 7 are never ever displayed in the demo as far as I can tell
+I've changed their flags to 63 on init - couldn't see anything different :(
+Set obj 6 and 7 to position at the start of the demo, nothing is rendered though...
+Bummer.
+_______________________________________________
+
+VR System File Format
+
+Header appears to be uniformly 50 bytes for
+each file - regardless of type?
+
+Each file is made up of a number of blocks
+at the start.
+
+Here's a rough very layout of the format...
+
+Header
+    char heading[50]
+    uint8_t version (26 for everything)
+
+Chunk Header
+    uint8_t desc_length
+    char desc[desc_length]
+
+Each chunk is then followed by the data for
+that particular chunk - if the chunk is not a
+fixed size then it is followed by an unsigned
+16-bit integer
+
+_______________________________________________
+
+VR-System construction
+
+Seems to use the following descriptors for chunks,
+which all seem to be fixed length?
+
+PROJECT (2 bytes long)
+    char name[2]
+
+ROOMBSP (2 bytes long, there's one for each LEVEL)
+    uint16_t unknown
+
+N-ROOMS (20 bytes long, possibly relative to number of ROOMBSP entries)
+    uint16_t unknown[number of BSP rooms]
+
+ROOMLST (96 bytes long)
+    seems to link in with visibility and the lightmap
+    blanking this whole section seems to result in the
+    main section of the level appearing fully-lit
+
+PACKCRD (2 bytes long)
+    appears to do nothing
+
+UNPACKC (2 bytes long)
+    appears to do nothing
+
+SRTWALL
+    uint16_t length
+
+    24      (changing this stopped the game from loading)
+
+    84      (something to do with the way sectors / walls are dealt with... very fragile, but interesting results!)
+    00      (unsure, nothing obvious)
+    AC21    (seems to do multiple things - stopped some textures being applied and fucked up drawing order)
+
+    0C      (changing this gives a general protection fault)
+    00      (changing this stopped the game from loading)
+    A4      (changing this gives a general protection fault)
+    11      (changing this stopped the game from loading)
+
+    00      (unsure, nothing obvious)
+    28      (unsure, nothing obvious)
+
+    0100    (something to do with the way sectors / walls are dealt with)
+
+    18      (something to do with textures)
+    002800100088046400900492046C006E00FFFF1D4090043000F0DF3F183F1800000000
+
+CELLPCK (packed data?)
+    uint16_t length
+    the rest of it seems to do nothing
+
+BMPWALL (2 bytes long)
+    appears to do nothing
+
+BSPTREE (4 bytes long)
+    appears to do nothing
+
+LEVEL 0 (increments for each 'BSPTREE' segment)
+LEVEL 1 
+LEVEL 2
+LEVEL 3
+LEVEL 4
+LEVEL 5
+LEVEL 6
+LEVEL 7
+LEVEL 8
+LEVEL 9 @ 14F070
+
+FLRMAPS @ 151090
+    uint16_t num_floors
+    (each floor / tile is 14 bytes, so 14 * num_floors)
+
+    Floor
+        uint16_t index ?
+        uint32_t unknown
+
+        [0000]      some sort of index
+        [06000000]
+        [4010000000000000
+        
+
+TLTMAPS @ 1513DB (2392)
+    uint16_t num
+    (each tile is 52 bytes, so 52 * num_floors)
+
+    Tile
+        uint16_t unknown
+        
+        [0000]
+        [0000]
+
+        [7E]    nothing obvious from changing
+        [A5]    something to do with the face texture coords
+        [FFFF]  also texture face coords
+        [825A]  nothing obvious from changing
+
+        00/00/00/00/00/00/
+
+        [7E]    nothing obvious from changing
+        [A5]    face texture coords?
+        [FFFF]  face texture coords
+        7E/A5/
+        [FFFF]  face texture coords
+
+        00/80/FF/FF/00/00/00/00/00/00/00/00/00/C0/00/00/00/60/02/00/00/00/01/00/0D/00/00/00
+
+EVNTWLS
+    uint16_t length
+    appears to do nothing
+
+.INF
+Missing swap info file: 
+Error reading swap info file.
+
+Each 'LEVEL' is followed by a load of null data.
+
+File starts at offset 1268946
+File ends at offset 1384219
+File is 115273 bytes in size
+
+Some strings specific to the map loading are below...
+
+    WARNING! Insufficient number of wallblocks in swapfile.
+    WARNING! Insufficient number of tiltblocks in swapfile.
+    WARNING! Wall texture number is invalid. (Lev:
+     Room:
+    .WARNING! Floor texture number is invalid. (Nr:
+    Incompatible construction file.!" ID sign was not found on level
+    h:\maps\
+    .HDC
+    Invalid construction name.
+    .SWP
+    Incorrect construction version.
+    Found:
+    Should be:
+    PROJECT
+    H:\DEFINES\
+    _LAMPS.DEF
+    H:\RAYMAPS\
+    _TXTUR.SWP
+    ROOMBSP
+    N-ROOMS
+    ROOMLST
+    LEVEL
+    BSPTREE
+    .INF
+    Missing swap info file:
+    Error reading swap info file.
+    PACKCRD
+    UNPACKC
+    SRTWALL
+    CELLPCK
+    BMPWALL
+    FLRMAPS
+    TLTMAPS
+    EVNTWLS
+    Walltype size missmatch!
+    .HDO
+    h! Fel level namn... (wrong level name)
+_______________________________________________
+
+The contents of the demo build seem to be typically
+prefixed with 'D1', which probably just specifies it's
+usage is for the first demo.
+
+There are 23 references in the executable to LBM image files
+Only 17 have been found in the demo build
+
+_PALET.LBM
+CS_WINS1.LBM
+CS_WINS2.LBM
+
+mouseptr.lbm
+
+H:\CS_DEMO\D1_AMBB2.LBM
+H:\CS_DEMO\D1_L3.LBM
+H:\CS_DEMO\D1_L4.LBM
+H:\CS_DEMO\D1_PRSNT.LBM
+H:\CS_DEMO\D1_ITS.LBM
+H:\CS_DEMO\D1_L2.LBM
+H:\CS_DEMO\D1_SIGNS.LBM
+H:\DEFINES\CS_BOOK1.LBM
+H:\DEFINES\CS_BOOK2.LBM
+H:\DEFINES\CS_F1320.LBM
+H:\DEFINES\CS_F2320.LBM
+H:\DEFINES\CS_F3320.LBM
+H:\DEFINES\CS_EINFO.LBM
+H:\DEFINES\CS_ARMOR.LBM
+H:\DEFINES\CS_USSPR.LBM
+G:\FONTS\TIMES30.LBM
+
+One of the oddities you'll see above is that
+the executable refers to specific paths and
+even specific drives! All of these appear to
+actually get mapped out to a place
+in the executable by some horrible method we
+couldn't identify (there don't appear to be
+any offsets or lengths?)
+
+_______________________________________________
+
+Can't confirm 100% quite yet, but I believe all
+the animations intended for the game are actually
+left in the demo
+
+Playing around with the setobjanim script func
+allowed me to use some animations I don't recall
+seeing in the demo
+
+All the animations included in the demo (66, only 8 used?)
+    Demo ERIK       (0)  working    (documented)
+    Demo ERIK II    (1)  working    (documented)
+    Demo ERIK III   (2)  working    (documented)
+    D E IV          (3)  working    (documented)
+    D E V           (4)  working    (documented)
+    D E VI          (5)  working    (documented)
+    D E VII         (6)  working    (documented)
+    D E VIII        (7)  working    (documented)
+    SKELETON        (8)  working    (documented)
+    SKEL II         (9)  working    (documented)
+    SKEL III        (A)  working    (documented)
+    SKEL IV         (B)  working    (documented)
+    SKEL V          (C)  working    (documented)
+    ORC             (D)  working    (documented)
+    ORC II          (E)  working    (documented)
+    ORC III         (F)  working    (documented)
+    ORC2            (10) working    (documented)
+    ORC2 II         (11) working    (documented)
+    ORC2 III        (12) working    (documented)
+    ZOMBIE          (13) working    (documented)
+    ZOMBIE II       (14) working    (documented)
+    ZOMBIE III      (15) working    (documented)
+    ZOMBIE IV       (16) working    (documented)
+    RESE            (17) working    (documented)
+    RESE II         (18) working    (documented)
+    RESE III        (19) working    (documented)
+    RESE IV         (1A) working    (documented)
+    RESE V          (1B) working    (documented)
+    Gedan           (1C) broken
+    Gedan 2         (1D) broken
+    Gedan 3         (1E) broken
+    Punch           (1F) broken
+    Hit KO H        (20) working    (documented)
+    Hit KO M        (21) working    (documented)
+    Hit ML          (22) broken
+    Hit MR          (23) broken
+    Hit Back KO     (24) broken
+    Hit stunnedd    (25) broken
+    Hit KO Dummy    (26) broken
+    Hit KO H        (27) broken
+    Hit KO M        (28) broken
+    Hit KO LL       (29) broken
+    Hit KO LR       (2A) broken
+    Hit KO Back     (2B) broken
+    (Hit duck KO)   (2C) broken
+    Rise2           (2D) broken
+    Rise Attack     (2E) broken
+    Rise Defence    (2F) broken
+    Jump up         (30) broken
+    Jump fwdwd      (31) broken
+    Jump bw         (32) broken
+    Jump left       (33) broken
+    Jump right      (34) broken
+    Hit stunnedd    (35) broken
+    Hit KO H        (36) broken
+    Hit KO M        (37) broken
+    Jodan           (38) broken
+    Jodan 2         (39) broken
+    Jodan 33        (3A) broken
+    Chudan          (3B) broken
+    Chudan 2        (3C) broken
+    Chudan 3        (3D) broken
+    GedanKick       (3E) broken
+    Gedan 2fence    (3F) broken
+    Erik start      (40) broken/pose
+    Zombie start    (41) broken/pose
+    Skel start      (42) broken/pose
