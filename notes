@@ -17,47 +17,48 @@ And very possibly, both of these executables are possibly the same... (one is ol
 7b91849c1eb382d8bcd6b6df37b7ebd4  ./TSUPTMP0_A.EXE (first executable, the one we usually run)
 fd2ee0a985a02783adc5b159a1b346a1  ./TSUPTMP0.$$$   (second executable, this one will crash on launch)
 
-0002:CEE0
-0003:1894 > 0003:1930    decompression table
-0003:192F > 000B:C292    debug output
-000B:C292 > 000E:A8D3(?) second executable
-000E:A8E7 > 000E:ACD3    decompression table
-000E:ACD3 > 000E:E8D6    notes by Mr.H regarding 486 instruction set
-000E:E8D6 > ....:....    unknown
-000F:08DE > 000F:30EC    g:\units\arctab.dat
-000F:30EC > 000F:349A    unknown
-000F:349A > 000F:631A    ILBM
-000F:631A > ....:....    ILBM
+0002CEE0
+00031894 > 0003:1930    decompression table
+0003192F > 000B:C292    debug output
+000BC292 > 000E:A8D3(?) second executable
+000EA8E7 > 000E:ACD3    decompression table
+000EACD3 > 000E:E8D6    notes by Mr.H regarding 486 instruction set
+000EE8D6 > ....:....    unknown
+000F08DE > 000F:30EC    g:\units\arctab.dat
+000F30EC > 000F:349A    unknown
+000F349A > 000F:631A    ILBM
+000F631A > ....:....    ILBM
+00135cd1 > 				BSP
+0015597f > 0015:5edd    H:\DEFINES\LAMPS.DEF (1372b?)
+001585B8 > ....:....    H:\CS_VECTR\NIL.TVA
 
-0015:85B8 > ....:....    animation file (H:\CS_VECTR\NIL.TVA)
+0018C659 > 001F:8707(?) swap file (H:\RAYMAPS\D1_TXTUR.SWP(?))
+001F8707 > 0022:8B93    swap file
+00228B93 > ....:....    swap file
 
-0018:C659 > 001F:8707(?) swap file (H:\RAYMAPS\D1_TXTUR.SWP(?))
-001F:8707 > 0022:8B93    swap file
-0022:8B93 > ....:....    swap file
+0022E930 > ....:....    texture data?
+0022EBF0 > ....:....    texture data?
+0022F280                texture data?
 
-0022:E930 > ....:....    texture data?
-0022:EBF0 > ....:....    texture data?
-0022:F280                texture data?
+0026C9D0 > 0027:48CA    table used for shading (possibly H:\CS_DEMO\D1_AMSHD.DAT)
+002748CA > 0028:0B2F(?) seems to deal with transparency on the animated flame sprite?
+002858CA                possibly the end of this transparency table mentioned above - not 100%
+002948CA > ....:....    ILBM
+002A2ADC > ....:....    Animation Definition File
+002A5081 > 002A:50C4    swap file
+002A50C5 > ....:....    H:\CS_DEMO\D1_ANIM.TVA
 
-0026:C9D0 > 0027:48CA    table used for shading (possibly H:\CS_DEMO\D1_AMSHD.DAT)
-0027:48CA > 0028:0B2F(?) seems to deal with transparency on the animated flame sprite?
-0028:58CA                possibly the end of this transparency table mentioned above - not 100%
-0029:48CA > ....:....    ILBM
-002A:2ADC > ....:....    Animation Definition File
-002A:5081 > 002A:50C4    swap file
-002A:50C5 > ....:....    animation file (H:\CS_DEMO\D1_ANIM.TVA)
+00327E19 > ....:....    swap file
 
-0032:7E19 > ....:....    swap file
+003ACAC7 > ....:....    ILBM
 
-003A:CAC7 > ....:....    ILBM
+004B2078 > 004B:3CFE    demonstration script
+004B3CFE > ....:....    save game (D1_START.SAV(?))
 
-004B:2078 > 004B:3CFE    demonstration script
-004B:3CFE > ....:....    save game (D1_START.SAV(?))
-
-0040:6D3D > ....:....    music track
-0045:3A62 > ....:....    ILBM
-0048:6406 > ....:....    ILBM
-0048:A888 > ....:....    ILBM
+00406D3D > ....:....    music track
+00453A62 > ....:....    ILBM
+00486406 > ....:....    ILBM
+0048A888 > ....:....    ILBM
 
 there are 11 swap files
 _______________________________________________
@@ -145,6 +146,20 @@ ROOMLST (96 bytes long)
     blanking this whole section seems to result in the
     main section of the level appearing fully-lit
 
+	Each block is 24 bytes each. Number of blocks is determined by
+	number of N-ROOMS.
+
+	0 = 30000000		Vis/Lightmap/texture ?
+		F0FFFFFF
+		D0010000
+		10020000		
+		00000100		Unknown, or unused
+		0F000000		Unknown, or unused
+		
+	1 = 800300004000000080040000000200000000010000000000
+	2 = 4003000000020000C0040000800200000000010000000000
+	3 = 800300008002000080040000800300000000010000000000
+
 PACKCRD (2 bytes long)
     appears to do nothing
 
@@ -208,7 +223,9 @@ FLRMAPS @ 151090
         
 
 TLTMAPS @ 1513DB (2392)
-    uint16_t num
+	
+
+    uint16_t num	(46)
     (each tile is 52 bytes, so 52 * num_floors)
 
     Tile
