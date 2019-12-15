@@ -1,0 +1,3218 @@
+!Object structure sizes missmatch!
+.+)A
+7!+7
+H:\DEFINES\
+_PALET.LBM
+0VESA not present or graphics mode not supported.
+bj	h
+g2)A
+(Something is wrong with the room-sorter!
+68fj
+.(ff1
+>Df	
+7t$j
+8i} 
+ VBL/frame, 	 frames/s
+Total heap size:
+Free heap memory:
+Largest free block:
+Total swap heap:
+Active swap memory:
+Total time: 
+Walls: 
+Room rotate: 
+Floor/Ceil.: 	Objects: 
+Lensflare: 
+S:a: 
+Tot.render: 
+Statusbar: 
+Screenmove: 
+Objectmove: 
+This screen: 
+Ground-bitmap-rutor: 
+Room-bitmap-rutor: 
+Room-objects: 
+Ground-objects: 
+Used cliptab: 
+Used object cliptab: 
+Used level cliptab: 
+Used ground cliptab: 
+Walls scanned: 
+Walls rendered: 
+Floors/Ceilings rendered: 
+Player x: 
+Player z: 
+Player y: 
+Player dir: 
+Camera x: 
+Camera z: 
+Camera y: 
+Camera dir: 
+Camera rot: 
+VR-Cam x: 
+VR-Cam z: 
+VR-Cam y: 
+VR-Cam dir: 
+exax: 
+exbx: 
+excx: 
+exdx: 
+exsi: 
+exdi: 
+exbp: 
+exsp: 
+Prg Line  YM  Wall  Flr
+Y-Pos
+Dest
+LDest
+LampsDist:	LampsRot:
+Dir: 
+Valid cams: 
+Dist:
+C-Offs:
+A-Offs:
+Pos:  (
+dPos: (
+Status:
+CurPos:
+LastPos:	FirstSeg:	LinkLine:
+SplinePos:
+Player animation info:
+ActionMask:
+AcListLine:
+Event:
+State:
+nOpponents: 
+VRA_KODamage: 
+Weapongroup: 
+Use: 
+Opp: 
+Angle: 
+RelH: 
+State: 	AI-Mode: 
+Sqr: 
+AIEN_RelAngle: 
+AIEN_Distance: 
+Obj[0].pos.x: 
+Obj[0].pos.y: 
+Obj[0].pos.z: 
+Obj[0].rot.x: 
+Obj[0].rot.y: 
+Obj[0].rot.z: 
+Spd.x: 
+Spd.y: 
+Spd.z: 
+MoverFrames: 
+MoverFramesLeft: 
+Int_MoverFrames: 
+Int_MoverFramesLeft: 
+Player level: 
+Player levelmask: 
+Player floor y: 
+BSP reports: 
+Level #
+Valid
+Invalid	Floor y: 
+; Ceiling y: 
+NObj: 
+LastNObj: 
+.)ARP
+bRSP
+bRSPj
+)AjZj
+)AjZj
+)AjZj
+)AjZj 
+)AjZj(
+)Aj2j
+bRSPj
+)Aj2j
+bRSPj
+)Aj2j
+bRSPj
+)Aj2j
+bRSPj
+)Aj2j(
+bRSPj
+)Aj2j2
+bRSPj
+)Aj2j<
+bRSPj
+)Aj2jF
+bRSPj
+)Aj2jP
+bRSPj
+)Aj2jZ
+bRSPj
+)Aj2jd
+bRSPj
+)Aj2jn
+bRSPj
+)Aj2jx
+bRSPj
+)AjdjH
+64fj
+)AjdjP
+68fj
+)AjdjX
+)Ajdj`
+)Ajdjh
+)Ajnj
+)Aj<j
+)AjZj
+)Ajxj
+6X:j
+)Aj-kF
+)AjdkF
+6V*j
+)Ajdj
+)Ajdj
+)Ajdj
+)Ajdj
+)Ajdj
+)Ajdj
+)Ajdj
+)Ajdj
+)Ajdj&
+)Ajdj.
+Wj@j
+)Ajd
+6z9j
+6~9j
+34]P
+}34]
+34]P
+}34]
+Animation control status:
+Event          
+Active         
+ActionMask     
+AcListLine     
+State          
+Animation player status:
+APL_Anim0      
+APL_Seq0       
+APL_Spd0       
+AI status:
+T_LastThought  
+Mode           
+OldMode        
+Enemy          
+InactCnt       
+OrgPos         
+LastMove       
+Cell 1..2      
+Intialized     
+ObjNr          
+ObjName        
+Obj:
+ObjTyp         
+Flags          
+Active         
+Size           
+Pos            
+dPos           
+Posinfo        
+Drawflag       
+Bitmap_prev    
+Bitmap_next    
+ExtObj:
+VRAObjPtr      
+VRANextPtr     
+Rot            
+dRot           
+Spd            
+SprAnimSeq     
+SprAnimTime    
+Ammo           
+HitPoints      
+Cell 1..4      
+ObjID          
+EventID        
+,34]j
+}34]j
+}34]j<
+}34]U
+}34]
+CSDUMP
+.LBM
+.)ARP
+.)ARP
++Into the Shadows - Character demonstration.
+By Triton 1995.
+Thank you for watching.
+2Graphics mode 640x480 256 colors is not supported.
+H:\CS_DEMO\D1_AMSHD.DAT
+H:\CS_DEMO\D1_AMBB2.LBM
+RUN DEMO
+RUN DEMO (Looped)
+EXIT
+MUSIC OPTIONS:
+N/A (Hardware)
+  Frequency:          
+  Interpolation:     
+H:\DEFINES\
+_COLT1.DAT
+@@Pj
+,Mjd
+@Pj 
+@@Pj
+2Graphics mode 640x480 256 colors is not supported.
+H:\CS_DEMO\D1_AMSHD.DAT
+H:\CS_DEMO\D1_AMBB2.LBM You've been watching a real-time
+demonstration of 4 (out of 20+)"characters from "Into the Shadows"
+H:\DEFINES\
+_COLT1.DAT
+jdj<
+jdj_
+C:\MUSIC\XM\T-INTRO.XM2Graphics mode 640x480 256 colors is not supported.
+H:\CS_DEMO\D1_L3.LBM
+H:\CS_DEMO\D1_L4.LBM
+H:\CS_DEMO\D1_PRSNT.LBM
+H:\CS_DEMO\D1_ITS.LBM
+H:\CS_DEMO\D1_L2.LBM
+$4]h
+&\O1
+:(\O
+This program requires VESA.
+G:\FONTS\TIMES30.LBM
+Error loading font Times30.
+H:\CS_DEMO\D1_START.SAV
+H:\CS_DEMO\D1_SIGNS.LBM
+C:\MUSIC\XM\INTRO.XM
+3*\O1
+.)ARP
+0)Aj
+3*\O
+:(\O
+-BUGS
+-NOMUSIC
+HELP
+-NOSHADOWS
+Invalid parameter: *Into the Shadows - Character demonstration
+By Triton 1995.
+Release v1.0
+Parameters available:$  ?           Show this help screen.
+  -c          Show credits.
+  -bugs       Show buglist.
+  -nomusic    Disable music.(  -noshadows  Disable character shadows.
+Credits:4  Programming          Magnus Hogdahl & Fredrik Huss%  Main art             Mikko Tahtinen#  Main 3D-design       Jens Schmidt%  Add. art & 3D        Magnus Hogdahl%  Music                Magnus Hogdahl
+Bugs in this release:.  
+ There is no support for Gravis Ultrasound.*    A fixed version will soon be released.9  
+ The fading in the intro doesn't work on some graphics6    boards due to hardware inconsistency of port $3DA.<    Some manufacturers seem to ignore the VGA standards when
+    SVGA-modes are used.$Low on memory. 6Mb Free recommended.
+D1_STAGE#Sound Blaster compatible card found
+No soundboard detected.
+CS)You cannot access the backpack in action.(You need a silver key to open this door.
+SHADOWQ.SAV
+Quick save game
+Game quick-saved.
+Game quick-loaded. Quick-saved game does not exist.
+Quit to DOS?J
+J           T R I T O N  V I R T U A L  R E A L I T Y  S Y S T E M         )Created by Magnus H
+gdahl & Fredrik Huss./(c) Copyright Triton productions HB 1994, 1995.(Development version, DO NOT SPREAD IT!!!
+r/\O
+Y!+7
+XDh&
+=&4]
+S>h&
+q2)A
+%6h&
+%6h&
+L6h&
+L6h&
+L6h&
+L6h&
+S>h&
+S>h&
+S>h&
+S>h&
+&kEp6
+t_&kE~6
+&kE~6
+&kE~6
+&kE~6
+&kE~6
+&kE~6
+&kE~6
+&;Eft/
+VRPj
+H:\CS_DEMO\D1_ERIK.DSS
+erik,(CS_CD1) Error loading demonstration script.
+H:\CS_DEMO\D1_SKEL.DSS
+skelve
+H:\CS_DEMO\D1_ZOMB.DSS
+zombie
+H:\CS_DEMO\D1_ORCH.DSS
+orch
+E~j 
+"(DS) Invalid sign in DS_Sign2Seq: 
+WAIT
+SETPAL
+PLAYANIM	SETOBJPOS	SETOBJROT	SETAIMOBJ	SETAIMPOS	SETOBJSPD
+SETOBJDEST
+SETOBJFLAGS
+SETSORT	SETUSEOBJ
+SETOBJROTAIM	SETSCRIPT
+SETVROBJFLAGS%(DS) Incomplete translation of line: 
+(DS) Invalid instruction: 
+&iEH
+)(DS) Invalid palette number in DS_SetPal.U
++(DS) Invalid number of palettes in DS_Init.U
+fPfSfQfR
+f_f)
+f^fZfYf[fX
+>$ff
+fVfWf1
+>$ff
+f[fXf
+f+64ff+>8ff
+.0*f
+.,*f
+.8*f
+.4*f
+6$*f)
+P*}jf;
+Xff@$
+L*~Ef;
+P*f9
+H*df
+f+64ff+>8ff
+.0*f
+.,*f
+.8*f
+.4*f
+6$*f)
+Xff;
+Xff;
+P*f9
+ff&;F
+<*f;
+@*f;
+D*f;
+H*df
+tMSV&
+Ix4t2
+fd;D
+f&;F
+QRVW
+_^ZY
+'QRVW
+_^ZY
+t&RWe
+t	kF
+RPk~
+RPk~
+RPk~
+F	FI
+&+E$&
+&;U&
+|V&;E$vP
+&;U&|
+&;E$v
+F	FI
+&;U&|
++&;E$w%
+&;U&|
+&;E$w
+tJkF
+"&;E
+You need a 
+ to open that door.
+&kE*6
+S>h&
+E*kF
+&+E&
+tQkF
+u2kF
+E,iF
+E0iF
+E4iF
+E8iF
+>Z*&
+>f*&
+>f*&
+>f*&
+>f*&
+>f*&;
+>f*&
+>Z*&;
+>Z*&
+>f*&
+>Z*&;
+>Z*&
+>f*&
+>f*&
+>f*&
+>f*&
+>f*&
+>f*&
+>f*&;
+>f*&
+>f*&
+>f*&
+>f*&
+>Z*&
+>f*&
+>Z*&;
+>Z*&
+>f*&
+>Z*&;
+>Z*&
+>f*&
+>f*&
+>f*1
+>f*&
+>f*&
+>f*&
+6f*j
+>f*&
+>f*&
+>f*&;
+>b*&
+X*;V
+>f*&
+>f*&
+>f*&
+>f*&
+>f*&;
+>f*&
+>f*&
+>f*&
+>f*&
+>f*&
+>Z*&
+>f*&k
+>f*&k
+>z*&iEl
+>b*&+E
+l*kF
+`*kF
+>b*&
+>f*&iEl
+>f*&
+>Z*&
+>f*&
+>f*&
+>f*&;
+>f*&
+EnHH
+Ut;V
+|";F
+EnHH
+]tkF
+v[kF
+Ep;F
+EnH	
+RPkF
+=&iEl
+RPkF
+Ut;V
+U~kF
+*&iEl
+(VRAC: Nil ALptr in VRAC_Execute. (objnr:
+ line:
+&iEl
+4]kF
+jJkF
+UNkF
+bY[+
+&)U$kF
+E$kF
+&iEl
+bRSP
+bY^_
+&iEl
+&+E$&
+&iEl
+|8=.
+&iEl
+"VRAC: Nil ALptr in VRAC_RunObject.
+&iEl
+&;U&
+&;E$v
+&;U&|
+g&;E$wakF
+t'kF
+takF
+&VRAC: Nil ALptr in VRAC_CalcAnimConsts
+(VR_ACtrl) No balls found
+u3kF
+$4]iF
+&iEl
+KRPk~
+KY[;
+bRPj
+ VRAC: Too many keys for action: 
+\789456123DPKJ
+VRAC: Invalid key in action: 
+(VRAC: Unable to load animation defines: 
+<TVAUNITS>=VRAC: Unable to find <TVAUNITS> statement in anim. def. file.
+<END>
+<ACTIONLISTS>@VRAC: Unable to find <ACTIONLISTS> statement in anim. def. file.
+VRAC: Action list number 
+ is defined twice or more.'VRAC: Invalid action list number. (Max:
+)3VRAC: No character number specified in define file.8VRAC: Too many hit intervalls in action definition. (AL:
+ Line:5VRAC: Invalid sequence number in action defines. (AL:
+<CHARACTERS>?VRAC: Unable to find <CHARACTERS> statement in anim. def. file.
+;	CHARACTER
+VRAC: Character number $VRAC: No character number specified.
+NAME
+RACEMASK	ARMOURMAP
+STRENGTH	ENDURANCE
+SPEED
+PSYCHE
+MAXLEVEL	EXPTABLEK	EXPPOINTS
+ACTIONLIST
+ENEMYACTDIST
+ENEMYDEACTDIST
+ENEMYACTRELH
+PHYSICSSPHERE
+OPPSEEKINT
+OFFENCE
+DEFENCE
+SLOWMINDED
+INTELLIGENCE
+AIRADIUS
+AIFIGHTRADIUS
+AISLEEPMODE
+AIWALKMODE
+AIFIGHTMODE
+AISPEED
+AIFLAGS
+DEFINVENTORY#ACTRL: Too many items in character 
+SFXMAP,VRAC: Too many numbers in SFX-mapping. (Chr:*VRAC: Unknown field in character defines: 
+ (Chr:
+~*P1
+bu?1
+Error loading TVA-file: 
+&kE*6
+&kE*6
+&kE*6
+bRSP
+bRSPj
+bY^_
+bY^_
+El&iEl
+&iEl
+&iEl
+&iEl
+&iEl
+&iEl
+&iEl
+t3kF
+H:\DEFINES\	_ANIM.DEF
+E";F
+&#E&&
+E&&#E
+&;E&t&&
+E&&#E
+U=&:T>w u;1
+A?&#@H&;@@u*
+A?&#@H&;@@u
+Press: 
+ Key:
+ Joy:
+ Old:
+Event: 
+&iEl
+U7&+E9&
+$4]k~
+,Mf1
+'Unsupported graphmode in VRM_GetScreen.
+4]Y[
+2)Aj
+H:\DEFINES\
+H:\DEFINES\CS_BOOK2.LBM
+H:\DEFINES\CS_F1320.LBM
+Error loading font.
+H:\DEFINES\CS_F2320.LBM
+H:\DEFINES\CS_F3320.LBM
+H:\DEFINES\CS_EINFO.LBMU
+4]RPj
+WjPj
+.)ARP
+q2)A
+t=x;f
+RPiF
+.)ARP
+.)ARP
+Invalid tiny in book-viewer.
+H:\DEFINES\CS_BOOK1.LBM
+4]iF
+.)ARP
+CSDUMP
+.LBM
+.)ARP
+.)ARP
+H:\DEFINES\CS_ARMOR.LBMU
+VRM: VRM_AMPnLines is invalid.
+H:\DEFINES\CS_USSPR.LBMU
+Unable to load "tiny": 
+>f+&
+>f+&
+>f+1
+>f+1
+>f+&
+EP0u&
+>f+&
+>f+&
+>f+1
+>f+&
+>f+&
+SVRW
+_Z^[
+&kE*6
+.)ARP
+/)Aj
+.)ARP
+.)ARP
+/)Aj
+.)ARP
+&kE,6
+Wj j
+ugkF
+F	FI
+You found a ,Game Wiz says:  You can't carry more things.
+VRM: Invalid screen number
+&You must remove some item to use that.
+t(kF
+.)ARP
+.)ARP
+/)Aj
+WjPjPh
+Wjij_j
+.)ARP
+VRM: Invalid screen number
+<Empty>
+That's an empty save game slot.
+Invalid game name
+No name specified.4You need a VESA driver to run in that graphics mode.1You need a VESA driver to use that graphics mode.
+t(kF
+.)ARP
+.)ARP
+Quit to DOS?=Thank you for playing INTO THE SHADOWS by Triton productions.
+Not implemented!
+Thank you for playing 
+INTO THE SHADOWS 
+Triton productions.
+.)ARP
+/)Aj
+k:VSWQf1
+t@f1
+tGf1
+Y_[^
+fHfP
+|)=	
+6r+j
+,MkF
+M$kF
+&kE$i
+.)ARP
+/)AkF
+VRPj
+VRPj
+Too many HB_lines.
+.)ARP
+@PjH
+.)ARP
+s<kF
+Wj@j
+&h&1
+*PWj
+FIkF
+INSERT NAME           #
+tart New Game        0
+oad Game             0
+ave Game             0
+onfiguration         0
+uit to DOS           0
+                      
+                      
+e	LOAD GAME             R
+ancel                h
+<Empty>               @
+That is the empty look@
+Vogue save 2          @
+WWWWWWWWWWWWWWWW      @
+Max 16 characters     @
+6 save game slots     @
+                     1
+                     1
+                     1
+                     1
+                     1
+                     1
+                      
+e	SAVE GAME             P
+ancel                h
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+Save game 
+           
+Save game 
+           
+Save game 
+           
+Save game 
+           
+Save game 
+           
+Save game 
+           
+                      
+                      
+CONFIGURATION         
+Screen resolution:    
+320x200               +
+320x400               +
+640x400 (Hi-res.)     +
+i-res config.        
+Window size:          
+Music volume          
+Sfx volume            
+                      
+                      
+                      
+                      
+                     v
+                     
+                      
+                      
+                     v
+                     
+                      
+                      
+                     v
+                     
+                      
+                      
+Sound setup           
+k                    
+                      
+                      
+                      
+                      
+SOUND SETUP           
+Sound board:          
+None                  +
+Ultrasound            +
+SoundBlaster          +
+Pro Audio Spectrum    +
+Microsoft Soundsystem +
+                      
+Music volume          
+Sfx volume            
+                      
+                      
+                      
+                      
+                      
+                      
+                     v
+                     
+                      
+                      
+                     v
+                     
+                      
+                      
+k                    
+                      
+                      
+                      
+                      
+Exit                  
+                     
+                     
+                      
+                      
+                      -
+                      
+Armour                
+Str                   
+e	(      
+)             
+End                   
+e	(      
+)             
+Psy                   
+e	(      
+)             
+AG                    
+e	(      
+)             
+HP                    
+e	(      
+)             
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+KEYBOARD HELP         F
+Esc                   
+F1                    
+F2                    
+F3                    
+F4                    
+F5                    
+F10                   
+Tab                   
+Enter                 
+                      
+                      
+= Main menu           1
+= Help                1
+= Save game           1
+= Load game           1
+= Volume              1
+= Detail level        1
+= Quit                1
+= Items/Actions       
+= Fight/Search switch 
+Triton                
+Productions           
+WXYZ                  
+Exit                  x
+                      
+                      
+Exit                  h
+                      
+Str                   
+e	(      
+)             
+End                   
+e	(      
+)             
+Psy                   
+e	(      
+)             
+AG                    
+e	(      
+)             
+HP                    
+e	(      
+)             
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+SELECT MODE           #
+	320 x 200             0
+	320 x 400             0
+640 x 480 VESA        0
+800 x 600 VESA        0
+320 x 200 Tweaked     0
+640 x 400 Tweaked     0
+                     !
+                     !
+                     !
+                     !
+                     !
+                     !
+xit                  H
+                      
+<Empty>
+SHADOW*.SAV
+<0rc<5w_
+SHADOW
+.SAV
+SHADOW
+.SAV
+~	Undefined
+u[kF
+uokF
+E&Pj
+&;E(u
+E&@Pj
+E&@Pj
+&+E*
+&+E*
+&;E"~
+E"+F
+&+E*
+&+E*
+bRSP
+bRSP
+bY^_
+bY^_
+bRSP
+bRSP
+bY^_
+bY^_
+&;E ~
+E +F
+&+E*
+&+E*
+bRSP
+bRSP
+&+E&
+bY^_
+bY^_
+E&@P
+E,HP
+,M@@
+&;E ~
+&+E 
+&+E(P
+&+E(P
+&+E&P
+=#t$6
+&+E&P
+g	<dt
+<guhkF
+E"Pj
+t3kF
+tPf&
+t1<	tS
+f&;D
+3ZY^
+3ZY^
+f&;D
+3ZY^
+#1#2#3#4
+w{kF
+-	Undefined
+U5kF
+u6kF
+E$:F
+t)kF
+U(kF
+U$kF
+E$:F
+U&kF
+tgkF
+U(kF
+]3kF
+U$kF
+E$:F
+M&kF
+tKkF
+]3kF
+U*kF
+RPkF
+E"+F
+E"+F
+U*kF
+U&kF
+U&kF
+tLkF
+E&;F
+bRSPkF
+U*kF
+bRSPkF
+bY^_
+bY^_
+E +F
+E +F
+U*kF
+bRSPkF
+bRSP
+bY^_
+bY^_
+U&kF
+U&kF
+tLkF
+E&;F
+E +F
+E +F
+U*kF
+bRSPkF
+E +F
+bRSP
+bY^_
+bY^_
+E,;F
+u7kF
+|!k~
+tDkF
+<eu3kF
+t <	t
+<euR
+H<dt
+<gu@
+t0<et,<
+t <	t
+H<dt
+<gu@
+&)U 
+&)U"
+YA;N
+YA;N
+YA;N
+GIt*
+xVtTf%
+u3f1
+It!d
+fGIy
+fOIy
+f;6h
+f;>`
+f;6`
+f;>h
+If;6\
+f;>d
+SVQW
+t'dg
+It$dg
+It!dg
+It+dg
+It#dg
+f^_f
+fWfV
+t	dg
+fOfGIt
+fOfGIu
+It!dg
+It(dg
+It dg
+f^f_f
+VRPj
+_[C;^
+SfWf
+x!&g
+f_[C;^
+fVQf1
+fWQf1
+f_YIu
+fWQf1
+#Invalid graphmode in VRW_TweakInit.U
+mouseptr.lbmU
+Wj j
+Wj*j
+\>f&
+L@f&
+VRSPR: Not initialized.
+VRSPR: Not initialized.
+VRSPR: Not initialized.U
+VRSPRTWK.32
+VRSPR320.32
+VRSPR640.32
+VRSPR800.32
+VRSP1024.32 Invalid graphmode in VRSPR_Init.
+VRSPR: Invalid SprDefPtr.
+VRSPR: Invalid ViewTabPtr.
+4]RP
+4]RP
+?-\O
+x4PW
+7WARNING! Insufficient number of wallblocks in swapfile.U
+Q5)A
+7WARNING! Insufficient number of tiltblocks in swapfile.
+|^&;E
+8&;E
+.WARNING! Wall texture number is invalid. (Lev:
+ Room:
+.WARNING! Floor texture number is invalid. (Nr:
+Incompatible construction file.!" ID sign was not found on level 
+Found: 	Filepos: 
+Wj"j
+h:\maps\
+.HDC
+Invalid construction name.
+.SWP
+Incorrect construction version.
+Found: 
+Should be: 
+PROJECT
+H:\DEFINES\
+_LAMPS.DEF
+H:\RAYMAPS\
+_TXTUR.SWP
+ROOMBSP
+N-ROOMS
+ROOMLST
+LEVEL 
+BSPTREE
+.INF
+Missing swap info file: 
+Error reading swap info file.
+PACKCRD
+UNPACKC
+SRTWALL
+CELLPCK
+BMPWALL
+FLRMAPS
+TLTMAPS
+EVNTWLS
+Walltype size missmatch!
+.HDO
+h! Fel level namn...
+Incorrect object file version.
+CAMHASH
+CAMPNTS
+CAMPOFS
+CAMLINE
+YMOVE  
+OBJECTS
+PROGRAM
+t	)A
+$4]k
+|3)A
+|3)A
+Invalid cylindermap number!
+.SWP
+ Invalid record size in savegame.
+This savegame belongs to 
+ (You are in +
+newgame.dat
+Corrupt new-game file
+bY[+
+(VRCAM) Too many valid cameras.
++7PW
+v4)A
+(VRCAM) Zero valid positioners.
+VRCAM: No valid camera found.
+(VRCAM) Zero vector length.
+bY[+
+.(VRCAM) Invalid link nr. in GetCameraSplinePos
+(VRCAM) Zero length at point 1
+(VRCAM) Zero length at point 2
+bj,j
+bj,j
+bj,j
+bj,j
+bj,j
+bj,j
+bj,j
+bj,j
+(VRCAM) Invalid camera number.
+4]kF
+&kEL
+&+EN&
+UPRP
+	|5&
+&)ET&
+Wj j
+2it	
+E>&+E<
+&kE*6
+&kE*6
+49RP6
+89RP
+49RP
+89RP
+<9RP6
+@9RP
+<9RP
+@9RP
+@96+E
+896+E
+KY[;
+'(VRMOV) Invalid map in GetFloorNormal: 
+VRMOV Error: 
+Object:      
+Pos:         
+LastPos:     
+y+h:         
+gy:          	  gdist: 
+ty:          	  tdist: 
+dy:          
+GyViolated:  
+TyViolated:  
+CollideObj:  
+valid:       
+CBerror:     1Hit spacebar to run ScanObjectBitmapCrossLinking.
+FIPj
+(Update object failed after failed slide.)Update object failed after failed normal.
+Final position check failed.
+bRPj
+u kF
+U&&;U
+u!k~
+U@kF
+U8+F
+U<+F
+U@+F
+s1kF
+&kE,
+bY[+
+&;U&
+&;E$v
+&;U&|
+%&;E$w
+s:&kE,
+U4&;U0|
+?&;E.s9
+U4&;U0
+&;E.v
+U4&;U0
+|?&;E.v9
+U4&;U0|
+&;E.s
+/&+EH&
+UJRP
+UNRP
+/&+EP&
+URRPj
+bRPj
+v4)A
+bRPj
+v4)A
+bRPj
+.r!&
+H:\RAYMAPS\
+_VECMP.SWP?The objdescr. table must be setup before VectorInit can be run.
+.HDV
+Unable to load vector object: 
+b0|6&
+.p0f
+.l0f
+x5f&
+.p0f
+.l0f
+x0f&
+f&+E
+^0f&+
+.x0f
+f0f&+E
+.t0f)
+^0f&+E
+.x0f
+f0f&+E
+.t0f)
+f&+M
+^0f&+
+f0f&+E
+^0f&+
+f0f&+E
+^0f&+E
+f0f&+E
+bRPj
+fPfV	
+f^fX
+f&;G
+(VRE) Too many active programs.
+4]k~
+"@Iu
+6d;D.t
+&(VRE.PI) Tried to execute nil program./(VRE.PI) Tried to execute non-existing program."(VRE.PI.StartPrg) Invalid prg. nr.$(VRE.PI.StartPrg) Invalid prg. line.
+@s&&k}
+4ff&
+<ff&
+8ff&
+J\uy
+L\up
+N\ug
+P\u^
+R\uU
+T\uL
+V\uC
+X\u:
+Z\u1
+\\u(
+H\uv
+J\um
+L\ud
+N\u[
+P\uR
+R\uI
+T\u@
+V\u7
+X\u.
+Z\u%
+4ff&
+8ff&
+<ff&
+Tff&
+;>\fr
+1&;D
+@uZ;
+VRFLRTWK.32
+VRFLR320.32
+VRFLR640.32
+VRFLR800.32
+VRFL1024.32!Invalid graphmode in InitFloor32.
+4]RP
+4]RP
+> ff
+.,ff
+^	U1
+r%SV
+$4]1
+QVWU
+OYIt
+QWVS
+[^_G
+QVWU
+OYIt
+QWVS
+[^_G
+````f
+````f
+````f
+````f
+_^[G
+H:\DEFINES\
+_P-TXT.DEF
+<PROCTXTASSIGN>
+6\fj
+QRVe
+6\fj
+PSVe
+F^[X
+.Xff
+><ff
+.(ff
+TfPe
+.(ff
+Tf[YSP
+.Xff)
+><ff
+.(ff
+TfPe
+.(ff
+Tf[YSP
+><ff
+.(ff
+.(ff
+.(ff
+.(ff
+.(ff
+.(ff
+8fef+D
+t(Q&
+8ffe
+\fef
+t4f&
+^f]fU
+xVf)
+xVf	
+xAf=4
+fPfSfQfR
+f^fZfYf[fX
+4ff+
+8ff	
+f+64ff
+f+>8f
+. ff
+Xff;
+f&;7|
+f&;w
+Ht3&
+Ht,&
+Ht%&
+Ht	&
+tf&;G
+7&:G
+Unknown lamptype: 
+$4]1
+<LAMPS>
+<END>,Too many lamps in lampdefinition file. (Max 
+Lampstate>255!
+$4]1
+, <`s7P
+h:\main\MiniFnt2.RAW
+;Construction must be loaded before LoadShadeTab can be run.
+H:\DEFINES\
+_COLT1.DAT
+>Construction must be loaded before LoadColorMixTab can be run.
+H:\DEFINES\
+_TRNST.DAT
+>Construction must be loaded before LoadColorAddTab can be run.
+H:\DEFINES\
+_ADDTB.DAT
+>Construction must be loaded before LoadTextureInfo can be run.
+H:\DEFINES\
+_TXTUR.DAT
+@Construction must be loaded before LoadObjectDefines can be run.
+H:\DEFINES\
+_OBJCT.DEF
+<VECTOROBJECTS>
+<END>8Too many vector objects in object definition file. (Max:
+<VECTORTEXTURES>5Too many vector maps in object definition file. (Max:
+<TINY>8Too many "tiny-objects" in object definition file. (Max:
+USE$Too many usage possibilties in tiny  Missing USE= definition in tiny 
+BONUS"Missing BONUS= definition in tiny 
+WEAPON#Missing WEAPON= definition in tiny 
+\*Too many lines in "tiny-description". (nr:
+<BOOK>
+<PAGE>
+Too many pages in book.
+Too few pages in book.	<OBJECTS>6Too many object types in object definition file. (Max:-(VRUTIL) Invalid object physics radius. (obj:
+ r:7Invalid vector object number in object definition file.
+Object + in obj. def. file should have vector flag.
+.TVA Error loading vector animation: 
+.TVA (Object:!Too many pictures for object nr. 
+ in object definition file.
+.TSA Error loading sprite animation: 
+.TSA (Object:
+<CYLINDERMAPS>7Too many cylinder maps in object definition file. (Max:%No objects in object definition file.
+Error loading object defines.
+AConstruction must be loaded before InitSpriteSwapFile can be run.
+H:\RAYMAPS\
+_SPRIT.SWP
+H:\DEFINES\
+_SPRIT.DAT
+}YkF
+<Construction must be loaded before CreateMiscTab can be run.=The ViewTabPtr must be setup before CreateMiscTab can be run.
+H:\DEFINES\	_SHDT.DAT
+4]RPj
+WALL_TWK.32
+WALL_320.32
+WALL_640.32
+WALL_800.32
+WALL1024.32
+WALLH640.32"Invalid modenumber in InitWall32: 
+4]RP
+4]RP
+"Invalid graphmode in ScreenOffset.
+"Invalid graphmode in FixScreenSeg.U
+t8x6f
+t,x*f
+t8x6f
+t,x*f
+Invalid graphmode in PageFlip.U
+Y^;N
+<HEADER>'TSA: Missing HEADER statement in file: 
+<END>
+NSEQUENCES
+TSA: Unknown command: 
+ (File: 
+)3TSA: No number of sequences specification in file: *TSA: Invalid number of sequences in file: 
+<SEQUENCE>)TSA: Missing SEQUENCE statement in file: 
+NDIRY
+NDIRX
+DIRCENTERY
+DIRCENTERX
+DIRMODY
+DIRMODX	DIRNLAPSY	DIRNLAPSX
+REPS
+REPE
+LOOPMODE
+FRAMES$TSA: Too many frames in sequence nr.
+ File: ;TSA: Odd number of numbers after FRAMES statement in file: 
+ (Seq:	) (File:  TSA: No frames in sequence nr.: 
+ File:)TSA: Animation data exceeds 64K in file: 
+Wj"j
+Wj"j
+-Unsupported file format version in TVA_Load: 
+.TVA
+.SWP.TVA: Invalid number of sequences in swapfile: 2TVA: Unsupported file format version in TVA_Load: 
+fRf1
+fRf1
+fPfR
+8fZfX
+8&* f
+8&* f
+8&* f
+8&* f
+8&* f
+8&* f
+8&* f
+8&* f
+^_d+
+8f&+
+8f&+
+8f&+
+8f&+
+^_f+
+*9f&
+uXWf&
+ETf&
+EXf&
+E\f&
+E`f&
+Edf&
+EXf&
+u	f	
+t)f	
+t;f)
+x5f	
+x	f)
+x$t(
+x	f)
+	f^[
+(:f9
+H:df
+8:df
+@:df
+6<:df
+>D:f9
+f;6@:~
+f;68:~
+f;>D:~
+f;><:~
+8:df
+<:df
+@:df
+D:df
+@:f+
+6D:f+6<:f
+A d+A
+A"d+A
+raFd
+Q$f;
+x9f;
+%f`fSfQVW
+_^fYf[faY
+P:f;
+B9fw-f
+fSfRfQfW
+f&+O$f&+
+G(f&
+f_fYfZf[
+0(VRPHYS) Invalid map number in GetTiltedNormal: 5(VRPHYS) Invalid tilt map number in GetTiltedNormal: 
+4]kF
+tDVfQfWf
+Ff_fY^s
+uZf9
+Y^;N
+4:f;
+:|'f
+f96z9f}
+f96~9|
+R9fd
+N9XXX
+Y^;N
+60:f
+>4:f
+F[s 
+F[Xs
+~9f&
+F[s"
+F[Xs
+~9f&
+F[s!
+F[Xs	C
+:QQS
+9f+F
+9f+F
+A d+A
+A"d+A
+VWSUQf
+f[fRf
+fZY][_^
+ t4f
+:QQS
+9f+F
+9f+F
+A d+A
+A"d+A
+VWSUQf
+f[fRf
+fZY][_^
+fAxgf;N
+f&+>$
+<&gf
+f&+>$
+V&gf
+f&+>$
+f&+>,
+pt|f=
+f&+>$
+f&+>,
+Wj6j
+Wj6j
+Cell 
+Done.
+bj j
+ZY[B
+Z:f1
+fPfQfSfR
+u1C&
+u*C&
+u#C&
+t3SV
+^[;^
+&9G.t
+6BIu
+)Invalid object type in SetupObject. (Typ:
+, Max:
+)3(VROBJ) UpdateObjectPosition failed in SetupObject.
+        ObjType: 
+ at %(VROBJ) Cannot place object on level 
+CBgy:
+ CBty:
+(VROBJ) Cannot place player
+E iF
+E$iF
+6z9j
+6~9j
+4]RP
+.SWP
+.DAT
+.TVE
+<EXTENDEDFEATURES>
+<END>
+SPRITEBLEED"(VRVEC) Too many bleed sprites in 
+NSBD
+(VRVEC) No NSBD define in 
+(VRVEC) Invalid NSPD value in 
+.TVE (1)
+.TVE (2)
+	|1&
+$4]k
+TRITON Vec.Obj.!(VRVEC) Corrupt HDV-file. (File: 
+)&(VRVEC) Invalid file format version. (	 Version:
+(VRVEC, LoadHDV) Out of memory.
+.TVE
+VRVECTWK.32
+VRVECLIN.32
+Invalid mode in VRVEC_Init.
+ARCTAB.DAT0(VRVEC) You need ARCTAB.DAT to run this program.
+4]RP
+4]RPh
+Triton packed sprite info.file.!SPACK: Invalid sprite info file: 
+SPACK: Invalid file version: #SPACK: File header size missmatch: %SPACK: Sprite define size missmatch: #SPACK: Too few blocks in swapfile: 
+'(VT) Invalid pointer in LoadShadeTable.
+*(VT) Invalid pointer in LoadColorMixTable.
+*(VT) Invalid pointer in LoadColorAddTable.
+fPfR
+fPfR
+fPfR
+f&;]
+f&;]
+fXfPf
+f&+E
+f&+E
+bY[+
+bY[+
+g:\units\arctab.dat
+fd+L
+fd+T
+fRf&
+fPf&
+fRf&
+fPf&
+fRf&
+f[fYfe
+UX[Ye
+X[Ye
+X[Ye
+fUf&
+fUf&
+G fd
+fUf&
+fUf&
+fUf&
+G fd
+fUf&
+fUf&
+fUf&
+G fd
+fUfXf[fYfe
+E fXf[fYfe
+fXf[fYfe
+v&fPf1
+:PM_VESAGRAPH: Banking exception handler is allready setup.U
+9PM_VESAGRAPH: Banking exception handler is not activated.U
+QWfRf1
+tlxj
+tC&g
+t/&g
+fZ_Yf
+,Mf1
+fPf1
+fPf1
+fPf1
+fPfh
+,Mf1
+fPf1
+fPf1
+fPf1
+fPfh
+|+;F
+Error in font (
+) : too many lines.') : Character exceeds 640 column limit.
+) : Missing character at line 
+, char 
+t7x5f
+t+x)f
+Wj8j
+VESA_SetBank failed.U
+FNfX
+VESA_GetModeInfo failed.
+This program requires VESA.
+(PMVMM) Error reading swap file
+(PMVMM) Invalid block
+(PMVMM) Double exception
+(PMVMM) Internal error #1
+4]kF
+6r!k
+|K;F
+Wj j
+jNPW
+VMM: Not initialized.
+VMM: Not initialized.
+(PMVMM) Too many files
+(PMVMM) Too many banks
+(PMVMM) Corrupt swap file
+(PMVMM) LDT full
+(PMVMM) Too large swapblock
+6r!1
+4]RP
+4]RP
+VMM: Not initialized.U
+VMM: Not initialized.
+tok~
+Extended Module: 
+;mf1
+&;w`r
+]2df
+G(df
+:E+rL
+E4P&
+E>@1
+&;D`|
+&+D`t0P&
+\d&+\`~"&
+Df&+Db
+EDYI
+u@X&
+EF@1
+t5P&
+ELYI
+Pt3XP
+tE<at
+< t(
+<	t	<
+EZ)EXs
+&;w`t
+t5J&:
+EBB&:
+t	J&:
+wd&+w`~
+Gf&+Gb
+t7J&:
+EJB&:
+t	J&:
+MP&:.
+ !"$%&')*+,-./01234567889:;;<<==>>>???@@@@@@@@@@@???>>>==<<;;:98876543210/.-,+*)'&%$"! 
+QWQ&
+SQVWf
+E9Y[
+pYIu
+(PMPLAY) Already playing
+\OPW
+(PMPLAY) Not playing
+u:&;
+V@UR
+g@UR
+v<PS6
+[XPS
+\OPW
+Wh>@j
+bRSP
+bY^_
+\OPW
+PSQR
+ ZY[X
+BLASTER
+!Initializing Sound Blaster, type=
+, port=
+, irq=
+, DMA=
+, DMA16=
+URPW
+XS4]
+E"j1
+E#j2
+E$j3
+E%j6
+E&j7
+E'j8
+E(j9
+E)j:
+E*j=
+E+j>
+E%j"
+E&j(
+E'j.
+|dj0
+|2jD
+Playing version $0400, frq=	, 16-bit=	, stereo=
+Playing version $0201, frq=
+Playing version $0100, frq=
+|4jB
+7U4]
+|:jB
+7U4]
+bRSP
+$tY^_
+bRSP
+bRSP
+$tY^_
+bRSP
+bRSP
+$tY^_
+bRSP
+$tY^_
+bRSP
+$tY^_
+bRSP
+bRSP
+$tY^_
+bRSP
+bRSP
+$tY^_
+bRSP
+$tY^_
+$pt)
+7U4]
+uSf&
+f&;E
+f&;E
+BfXf&
+fPRf
+BfXf&
+t(f&
+&:%tnr7
+ULTRASND
+ULTRA16
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+E,@@
+&;E u
+E,@@
+RPj;
+RPjK
+RPjw
+<%uq
+<wu\
+<KuG
+URPW
+	Q4]
+URPW
+	Q4]
+URPW
+	Q4]
+E"@@
+E"@@
+E"@@
+yR4]
+yR4]
+yR4]
+7U4]
+7U4]
+bRSP
+bRSP
+&AUR
+g:\sound\snd_masm.32
+4]RP
+4]RP
+4]RPj
+(WaveDevice) Player busy
+Mixing rate:  
+Speed (BPM):  
+Precalc size: 
+Block size:   
+URPWj
+(WaveDevice) Not playingU
+URPW
+bRSP
+bY^_
+t)f&
+D*f&
+(WaveDevice) Player busyU
+(WaveDevice) Player busyU
+4]RP
+4]Y[+
+E0;F
+&;E6v
+] ]YIu
+&)E6
+_*f1
+_*f1
+fHfH
+URPW
+	Q4]
+yR4]
+bRSP
+6Y^_
+URPW
+URPW
+Invalid length in GetMem
+Invalid length in ShrinkMem
+| ;F
+<*u	
+<6u	
+ Y[X
+<Xwb
+<1wO
+b<&t
+ !"#$
+%'()*+,-./0
+1234567890+'qwertyuiop
+asdfghjkl
+'<zxcvbnm,.- 
+%&/()=?`QWERTYUIOP
+^ASDFGHJKL
+*>ZXCVBNM;:_ 
+{[]}\
+|~`1234567890-=qwertyuiop[]asdfghjkl;'\\zxcvbnm,./ ~!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"||ZXCVBNM<>? 
+^1234567890B'qwertzuiopu+asdfghjkl
+#<yxcvbnm,.- 
+$%&/()=?`QWERTZUIOPU*ASDFGHJKL
+'>YXCVBNM;:_ 
+{[]}\
+|~J1234567890+
+qwertyuiop
+.asdfghjkl
+'<zxcvbnm,.- 
+%&/()=?`QWERTYUIOP
+^ASDFGHJKL
+*>ZXCVBNM;:_ 
+{[]}\
+1234567890+
+qwertyuiop
+.asdfghjkl
+'<zxcvbnm,.- J!"#
+%&/()=?`QWERTYUIOP
+^ASDFGHJKL
+*>ZXCVBNM;:_ 
+{[]}
+|\~|1234567890+\qwertyuiop
+.asdfghjkl
+'<zxcvbnm,.- J!"#
+%&/()=?`QWERTYUIOP
+^ASDFGHJKL
+*>ZXCVBNM;:_ 
+{[]}
+~2&e"'(-e_qa)=azertyuiop^$qsdfghjklmu*<wxcvbn,;:! 
+1234567890
++AZERTYUIOP.
+QSDFGHJKLM%u>WXCVBN?./
+~#{[|`\^@]}
+XS4]
+4]PW
+EF4]
+4]RP
+!(PMUTIL) Joystick not initialized
+!(PMUTIL) Joystick not initialized
+fPSQfR
+fZY[fX
+	Q4]
+yR4]
+(PMUTIL) Cannot find timer proc
+!(PMUTIL) Too many timer procedues"(PMUTIL) Timer proc already active
+4]RP
+H6;E
+u#;F
+uB;F
+0123456789ABCDEF
+@@Ph
+#1'U*A-
+#1'U*A-
+<A-t
+GP8bN
++WARNING: Color VGA adapter is not detected.;         Press Enter to continue or any other key to abort.U
+(PMUTIL) Vertint activeU
+VPWj
+ a!#"
+#g$'%
+&g'&(
+1n2&3
+6o7$8
+?s@ A
+AyB%C
+CzD#E
+v"wjw
+z@z{z
+z%{[{
+{(|X|
+}8}a}
+~=~^~}~
+~}~^~=~
+}a}8}
+|X|(|
+{[{%{
+z{z@z
+wjw"w
+E#EzD
+C%CyB
+A As@
+8$8o7
+3&3n2
+(&(g'
+%'%g$
+"#"a!
+ a!#"
+#g$'%
+&g'&(
+1n2&3
+6o7$8
+?s@ A
+AyB%C
+CzD#E
+v"wjw
+z@z{z
+z%{[{
+{(|X|
+}8}a}
+~=~^~}~
+4]RP
+4]RPj
+4]RPj
+Line
+Wj!j
+Wj-j
+Wj1j
+Wj=j
+,fQR
+fVfWP
+a	gf
+f_f^
+t_f1
+<ft8<6t4<&t0<>t,<dt(<et$<.t 
+$4]f
+u!f9
+$4]O&
+!X[YSPQ
+Y[XQPS
+fYPRfQ
+gPfR
+Pj@j
+Pj@j
+Deallocating DMA buffer
+!#$456789:;<=>?u
+Wj@j
+Wj@j
+Wj@j
+fQfQfQfQfSfRf
+fSfQ
+tEwgf
+fXf%
+1Y[PSQ
+Y[XSQ
+SQWV
+^_Y[
+_^]ZY[X
+WVURQSP
+1YIu
+r!P1
+bRPj
+1rN=
+t*QV
+Wj 1
+File not found
+Path not found
+Too many open files
+Access denied
+Invalid handle
+Not enough memory
+Invalid environment
+Invalid format
+Invalid file access code
+Invalid drive number
+Cannot remove current directory
+Cannot rename across drives
+No more files
+Disk read error
+Disk write error
+File not assigned
+File not open
+File not open for input
+File not open for output
+Invalid numeric format
+Disk is write-protected
+Bad drive request struct length
+Drive not ready
+CRC error in data
+Disk seek error
+Unknown media type
+Sector not found
+Printer out of paper
+Device write fault
+Device read fault
+Hardware failure
+Currupt file
+DOS error #
+VCPI
+DPMI
+ manager present. 
+k memory found.U
+bRPj
+SS:[SP+
+] = 
+Wj j
+------------
+Null selector
+Invalid selector
+Base = 
+, Limit = 	, Type = 
+Line
+          in 
+bj.j
+bj)j
+PROGRAM ABORTED: 
+FATAL ERROR: 
+Out of memory
+Error in file
+Too many startup procedues,This program requires an 80386 CPU or better+The CPU is under control of another program
+Out of selectors"Cannot find a valid memory manager
+Invalid pointer in FreeMem
+Incompatible PIC mappings
+Break key pressed at 
+    
+Too many exit procedues
+Too many relocation units0This program requires DOS version 3.00 or higher
+Cannot find 
+This program requires VGA
+Out of expanded (EMS) memory=The memory manager does not support Virtual DMA Specification+DPMI was unable to switch to protected mode7The DPMI server does not support the functions required
+Error initializing sound device
+This program requires a mouse
+Cannot allocate DMA memory
+Low stack memory Out of conventional (DOS) memory
+ at 
+EAX = 
+  ESI = 
+EBX = 
+  EDI = 
+ECX = 
+  EBP = 
+  Flags = 
+EDX = 
+  ESP = 
+         (ODITSZ-A-P-C)
+CS = 
+DS = 
+ES = 
+FS = 
+GS = 
+SS = 
+Talk to Mr.H immediately!
+Talk to Vogue immediately!
+Runtime error #7   Make sure that an extended memory manager (HIMEM) or<   an expanded memory manager (EMM386, QEMM386, 386MAX etc.)
+   is present.7   Also make sure that no multitasking operation system&   such as Windows or OS/2 is running.2   If you are not sure, check the CONFIG.SYS file.,   Read the DOS manual for more information.
+bj:j
+bj:j
+bj:j
+(PM) Interrupt in use
+B RP
+(PM) Interrupt not in use
+(PM) Interrupt in use
+(PM) Interrupt not in use
+Unable to access DMA channel
+fXf1
+4]PW
+/DPMI
+0Triton integrated 386 DOS-Extender version 2.00.U
+X[YZ^_]
+f!t)
+0<:r
+!#$456789:;<=>?uRuntime error 
+ at 
+Portions Copyright (c) 1983,92 BorlandU
+;6L!t_&;U
+WSQ&
+t3SQ&
+Z!XZ
+F!rE;
+J!s7
+J!u	
+_^]r
+]r	3
+PQRW
+_ZYX&
+<)sg
+WVQUSP
+[ZY]
+Y^_s
+<lr\
+<lr	
+YRSP
+sURSP
+Y^_PQ
+`1pF,
+!wS<
+FXc~
+YAAQ
+RSPQW
+NGItL&
+=$tH&
+=.u2GI
+s0CGISQW
+_Y[s
+DRSP
+X[Zx
+tIQV
+!RP3
+![YRP
+ !"#
+''(()*+
+''(()*+
+''(()*+
+33333
+33333
+33333
+33333
+ancel
+Painly yours
+Sucks
+Rules
+Anyhow
+eave
+Cancel
+Button 3
+Button 4
+CS_WINS1.LBM
+CS_WINS2.LBM
+Remove
+Drop
+Drop
+Read
+Read
+Drink
+Drink
+XXXX
+XXXXX
+XXXX
+XXXXX
+<Empty>
+<Empty>
+<Empty>
+<Empty>
+<Empty>
+<Empty>
+0123456789
+0123456789ABCDEF
+Normal
+Sine
+RandomL
+RandomD
+RandomL2
+RandomD2
+SineSqr
+Pulse
+3VR-System construction. By Triton Prod. 1994-95.  
+3VR-System object file. By Triton Prod. 1994-95.   
+3VR-System savegame v1.1. By Triton Prod. 1994-95. 
+8VMM swap file version 2.00 for Triton 386 DOS Extender.
+(PMPLAY) Player busy
+(PMPLAY) Player not open
+6!URZ(UR
+*UR$
+z+UR
+URM2URG3UR
+4URD8UR
+5UR[6UR
+:URs;UR5=URv=UR
+=URJ>URn>UR
+*CURW
+CUR1
+(PMSOUND) Device busy
+(PMSOUND) Device not open
+(PMSOUND) Device already open
+(PMSOUND) Device not playing
+(PMSOUND) Not implemented
+BMHDBODYCMAPFORMPBM BMHDCMAPBODY
+d(00) Division by zero
+(01) Debug exception
+(02) NMI interrupt occured
+(03) Breakpoint
+(04) Overflow error
+(05) Bound range exceeded
+(06) Undefined opcode
+(07) FPU not available
+(08) Double exception fault
+(09) FPU segment overrun
+(0A) Invalid TSS
+(0B) Segment not present
+(0C) Stack segment fault
+(0D) General protection fault
+(0E) Page fault
+(0F) Undefined exception
+(10) FPU math error
+(11) Alignment check
+(12) Undefined exception
+(13) Undefined exception
+(14) Undefined exception
+(15) Undefined exception
+(16) Undefined exception
+(17) Undefined exception
+(18) Undefined exception
+(19) Undefined exception
+(1A) Undefined exception
+(1B) Undefined exception
+(1C) Undefined exception
+(1D) Undefined exception
+(1E) Undefined exception
+(1F) Undefined exception
+	)	7	E	S	
+TRUE
+FALSE
+s;,!l!
+JYFT
+r?RR
+^\'c.
+3'U3
+N0&{
+z]]]
+OOe`
+YN"a
+T)R4
+SvWC
+ZZYU
++PPS_
+IFH[SCW
+(/pB
+Aut	A
+Uy{gl`bp
+0\axbo*Kdfuqaq.!`
+dv~h1
+wiwp>
+BHE>
+{%6}G
+C'n2
++h8JP
+I7xJ
+f.*$
+yV B
+kd="
++|lztojj#&1
+$?>!,m
+?;!ic}
+!lg:
+09:80
+L1:gN
+;^md)
+ftrw
+xD~Y.
+-|QJCE
+dz	r7~'>
+MT{~ 
+v#I#
+'#p#Ivi#T 
+f>vO
+fMf&
+%M<X
+0i"I
+pWeL
+ds,~
+1/}fu1
+7O7j
+DE`%N7I
+^F]ZFUK@
+91\4
+`+5`
+)^\c\$
+=@$v
+;1=,(,
+4>y}
+QN_~
+t4`,
+3f0a
+7/|y
+A|O7
+=A9zX
+}(8#@UBH
+nQgO
+#	r{
+*#H)
+Ea)u
+L#gZ:
+E.DrX
+jv~)m}
+<	7?
+~eDb-&
+f|g0
+b4`]
+UBK*
+J	pI
+4L|6
+3=<C
+KuG%
+ua9Qw
+ Lvm
+Y595
+io;[
+)b_3} 
+g$	^
+9"%/%E
+?\.r
+B\^\
+[_< O
+6RGs
+n-B-
+`<Ywlwo
+Vefuh*00
+.!w-
+gd4&K
+%LYm
+fjJhzbil!'Viezgs
+0m{~u
+G`pnhb$qcu
+u5.-
+Xzlmc&-FSO(
+[xlkfjf$pk{
+Iffkl
+a!!?
+&Lm"i
+^n(O
+@bx+z
+w=bj
+hSl<
+c Mk=
+[89N|;
+y5&T
+A.=E.
+ZY*4
+A5\nR#_Xx
+"8:N	
+d}"7
+3PfWb-
+@fqgimg"m
+uaiyd+cg(@cqIfo
+8B3D;o
+cG!y
+oBt=
+2%DY
+v({`
+K'`n
+c['[
+b,>I
+	5Ppd
+'1y6
+m2+x
+.,.(.
+"!--))-p
+=!!=
+:8:<202<:2*
+7~yh~
+s|ahv
+vhfggg
+/;|}gu`o
+}#  ,
+sq%-
+r32lZ]LZS_PMLR
+NN]IJLBCCK
+.=XY
+3SYLCA00V
+spmq(9\
+`LSq(&{%C0
+*P+&rW,
+qtsq<'x
+q055)
+ 8\O
+"qpZ{x
+sqWHq
+q<+i)-!%bYteB
+quqY"t
+q`y!6~q.
+	@/@
+)@UTJq&
+qC(y5]q<,.
+qu)nzeX]B
+Zs)<
+R,$[G\\NJ,$Imx
+c{g:mn
+{aio
+rbb0
+n]_^b
+`ljg"u
+tqmbP
+!h`Z
+[ab,fq~
+fjkiyny+"
+*hducd`,Fdql.}o
+[6>Z[v
+jr^6
+1NB<B8}
+s;Y"
+J;L^
+iBS{!
+*vl~
+>G-h
+M^)%
+1I!TT1
+n420
+1	N8
+6	D3
+ L!p
+D'$!g
+9wB`
+Q[yu
+ zjD"O8
+z-f3P
+T9-D
+:?50t4	
+u(e]
+FhgJ
+C<2M
+&`@r
+^Nx	
+1_u9
+;0:%3
+I>V`Af
+<fv!
+3[afq
+!==99==11FDF@FD
+I&pU
+I:	O
+Kb4]
++H*|
+XDc|
+0.!@
+0/.(M
+1]"cpjB
+7Z$L!
+= A`
+BAGCK1*Jgkiw$UE@
+0njl|
+ov$mmu
+b+?#
+[xl{
+&yc+if
+ljvg!
+xAmes
+/VHQWKM
+pBR2
+e),#
+e0	&;
+>&=3
+@ N 
+)i&%'
+w+)(
+/o  -
+:d;.4
+;c<.1
+LuI/J
+D|A'F
+Zb[	T
+~%qos
+jOtvv
+r"}^
+u%pSv
+z>|_
+{#}7
+oCqmsxu
+(,048
+m<@DHL
+PTX\`dm
+hlptx
+U,KwH
+I,K~D
+E#Cr
+2-0h1
+?-9g:
+&+$l-
+#"!d&
+,..j+
+(,048
+m<@DHL
+PTX\`dm
+hlptx
+hO$na
+HZ!p 
+z]~"Z
+?wr~8#
+p`#7
+[~[{3pB
+(8R/
+ F CT
+.7.0.n
+Dnh`
+t.$^[
+m*m!
+FZ& 
+8`I,
+~a6Ir
+ih5DO
+D8us.N{
+&7)A
+<i__>
+YdX"
+}h0/
+j$zb
+9AH>
+"@9V
+c<v|0
+mk+e
+Mj	&	
+&	r	
+IM	l	
+	ZjR	
+!i!]
+@!A!A
+*!=P
+!=!)X
+(048(j)n>
+.(x*
+bUdVR
+nX`[
+*JiI
+2kx36?|3:#p3>?
+d#2ix#6l|#:+p#
+<18`O898
+k>HW
+^^]PRPM
+^]]USQ{1 V&	
+E_l%
+oQWTcU
+$1 -$@
+H<yr*
+'n6U
+i+e&Q
+|XI@
+q6!d
+L`h`
+eXYw.
+A!}V
+}eNgy
+V{"N
+JI&e
+AgOi
+Nlikjjgbvh
+~h.IAJ*k}a``vd8
+1,*99==11==99==t
+GnS98
+5U.t
+=F5Z5
+N%1_
+w--_
+@#K|
+R0<v]h
+'Kp4e'
+O9bSd
+6_^TPS
+UWU]
+<\ZVUUx
+eDLw
+w@43
+/S2g
+D5:-
+	1&Hx
+0P[q'
+P%LI
+M6W6
+(7(O
+>Ted
+H}2}
+e[/}
+k!7!w
+MNla4g
+Jk(6
+ Sl	q
+	O/	
+F<8<]<
+jS	`
+%"aEpL
+	Wm]o
+l(@7:|
+z']]
+(wD=
+N#o\
+9#8z
+Hd`n*ggs&ckvle
+_oyd
+0bocu+eymi
+0u1Ee|hdnb%l&
+TwFangfz~
+}c{gi
+mv}F5eu^w
+*_mba
+e<`bfx
+|eecw
+S#]gb
+ mcl
+Oczc(b7
+kCobj
+ya~x
+badH
+m| |{
+_`jxc
+zmbm0
+[cg/
+yn.yu
+o%9Ccs
+agphw
+Ck{lpg
+8`leg
+`hrwd
+\JXN
+ATNK
+.}~ny
+AK\^&
+V*4(
+R,{("
+$@Ly
+^zba@h
+$'Jlijv
+F`fb
+W*2e
+W	">"
+"u="u
+?#L)
+v$\K
+dJL! ?
+U/3/+
+[XFOUGH$B@N8
+B[KIwBBV@
+\/K_
+{sgwpvr
+gdca
+-'^a
+lxhe
+,-4;91>'EUQV
+8s``y<ey3$!
+:-$y
+d;wi
+lkuewkckx6WOF4
+\e-gns
+^p^f
+#w3_
+#!>=
+P>QAD
+ BKV-
+(ci9d
+Kyyjf
+KD$Prd
+b*~i
+x;j0
+cdzg
+ABZE
+'&@WJ
+{	ChberT=
+8@<_YS%F+U)@+
+ fDz)N%mn
+o{ U
+^hapa
+{Bof
+~nr-
+XFCHA"
+R)&O	
+F7fvb
+MpV"
+dxjyb
+.xsz
+F[(4_
+Yi.tc~*3n
+ tODDOA@(V]PQ
+0"KZT0+=
+pUnf
+&o"B"]&K&
+^L^T^5828K
+^A^K
+&D&/jJ^
+^}zF^;8
+^H&M
+{HUE
+{^&W&Q:=&
+4#$p{
+4$$w
+A;A$
+!	!<
+)qe%
+q>q!
++-+%h<"+X
+pU[p
+kjk%#
+xL`h
+inj u
+]-iR&
+^^]Y\^
+x3N.
+=\B_
+$''64
+t&864606468s
+U39i
+]_Mb|rx
+$h#)9>>6(:0!s;R
+487~V.<Sl
+SPS'
+z`36
+@d1^
+A7uHrh
+s3?v
+RRVx
+/	RCW
+w6'9
+9.U6%
+r("u
+TTOU
+UUQ0
+W]_]"
+S	SPW
+UY\]
+C C!\>
+Grue
+(!(K
+ratJ,^
+Uz-7
+Tfof
+]4`	
+v&&r
+ZN3e
+B.2J
+=&>a=r[b
+pIX?
+xC	Y
+@n7n
+6 Su
+/B?{.
+)`m$
+cbV>
+,&}j
+]_YRUU
+Xq\|
+TRRR
+cZbt
+j8xA*
+,{X6
+.A@u
+>\0LH
+JDKu
+/~A.
+|>T!
+WIrf
+DLtG2
+":?Gc
+|7c%2
+v4@wNbFM
+20dh
+Ug[Z
+////
+ !-,*(*
+lbhoe
+Wgljo{!
+	i`{
+Gk}kmv
+bid>A
+`eug'J9n
+Aq@q@
+d``-?!.
+7<uB!
+L]R[BDZ9)JGI
+Uchk
+Oxfx
+d`jh
+`{w3
+<:8:<202<:
+ DF@FD
+fV4ZY
+2{Q"
+@OBn`icfF
+PZyu
+:.Z|dt*
+.:^U+V}pvd00}/mbb
+zreqm	
+P>/Lt,_x``
+6?<0.;4
+mdh;)nnj`
+`gha#t0:[>>
+@O;>
+;TL Q]/}zm{<p
+#0/FE ?
+	=5:+NF['C}pfleA
+,SOQ
+\NW$,[fhqbt%fvqxz
+jlv!
+C@[CH"*Mmqofa@
+kezH
+koZ=w
+if5sc
+~ W1
+JJNAFLFX
+SBO]JDXDX
+nr*smui
+jra%a{ad
+DA'o0
+(hefqq0s
+gC-fz
+H$axbo*{iia`
+Z<>3
+eykh
+!nxlegkkd
+/hlygw<
+83}hk7K1
+Hcx~E`b`SUV
+kjcE
+QE.3d]
+CE<<
+hewj
+ldp`j
+	XY_L
+AGIWF;
+	$	-	F	m	u	
+ ' 8 = D X q v } 
+! !'!;!P!U!\!p!
+"("-"4"I"b"g"n"
+#:#O#T#[#o#
+$#$($/$C$X$]$d$x$
+%^%e%
+'E'L'
+(<(C(l(s(
+)a)h)
+*.*5*W*^*
+,>,C,J,
+-R-j-o-v-
+.8.Q.V.].z.
+/3/8/B/I/]/v/{/
+0)0B0G0N0b0{0
+1&1+121e1
+222L2Q2X2l2
+30353?3X3]3g3
+434R4W4^4x4
+5/5I5N5U5j5
+62676>6S6m6r6y6
+747S7X7_7z7
+8:8S8X8_8s8
+959:9A9U9m9r9y9
+:$:8:M:R:Y:|:
+;$;?;\;c;s;
+<)<0<@<W<^<n<
+<!=;=W=l=q={=
+=9>@>i>~>
+?$?K?Q?c?h?
+A0A5AOAhAmA
+B&BRBjBoB
+C4C9CSCkCpC
+D9DLDdDiD
+G-GTGkGpG
+H9HVHvH
+I(I-I7IOITInI
+J6JOJTJnJ
+K0KGKLKfK}K
+L5L:LDL[L`LzL
+L<MAMZMfMnM
+MeNlNqN
+N"O'O5O<O
+P-P2P>PHPQP_QjQqQxQ
+R RIR\RoR
+T*T:TETSTfT
+U$ULVrV
+X+X5X?XLX^X
+Y+Y"Z-Z4Z;ZCZQZ\ZcZjZyZ
+[6[%\3\A\]\g\
+^)^4^<^J^U^\^k^v^
+_)_@_P_q_
+`0`]`g`n`u`
+a&a-adanaua
+b&bIbSbZb
+b]cbcpc
+d#d:dod
+d	eEeJeOeTeYebeiere
+f!fYfdfif}f
+fCj~j
+k-kGkakzk
+l*l/l@lElOleljl
+m)m.m8mNmSmimnm
+n!n7n<nRnWnhnmnwn
+o?qDqIqNqSqXq]qbqgqlqqqvq{q
+r%r,rArFrerjr
+sBsQshs
+t%t4tFt^thtrt
+u$u0uHuxu}u
+u3vKvcv{v
+w)wHwVw[w`wrwww
+x!x&x7x<xFxWx\xcxkx
+|#|2|@|O|]|l|z|
+}(}.}<}L}Y}d}j}
+~/~9~>~b
+!%",";"
+"%#/#
+$5$?$r$
+$f%q%
+&*'M'
+)#)*)8)F)T)k)
+)l*v*
++!+++^+l+s+
+,(-3-J-h.
+/+080?0
+4J4[4`4e4j4o4}4
+5R7j7
+7?8V8l8
+:V:g:z:
+<Q<T=
+=(>h>t>
+A+B;BuB
+C1DLDjD
+E&E@EgE
+G:HcH
+I"I6I
+IKJPJUJxJ
+PDQQQ
+S<SES
+S"TAT
+U>UEU
+W$X?X
+Y1Y[YlYwY
+Y(Z-Z4Z
+^<_G_f_
+d!d/d:dAd^d|d
+d&efe
+eEf|f
+f!gXg
+g5hlh
+i$j[j
+k8kok
+l"m'mYm^m
+n:nqn
+o*pap
+q=qtq
+rKrPr
+r's,s^scs
+t:t?tvt
+u.vev
+wBwyw
+x,y1ycyhy
+zDzvz{z
+z {R{W{
+{3|j|
+}G}y}~}
+~#~Z~
+7	L	j	
+!)"U"
+"&#i#p#
+','1';'V'y'
+' (A(h(
+)L,i,p,y,
+-6-=-B-V-[-o-t-
+0&0?0F0O0h0o0t0
+1E2\2
+3C3P3
+8+8W8
+9-9=9Q9
+:K:`:t:
+:%;};
+="=@=I=V=
+=[>q>P?m?v?
+@G@U@
+C:CEC}D
+E:ESEgE
+E$FvF
+F6GrG
+I.IYIqI
+KBKZKlK
+K=LpL
+LVNjNoNtN
+NIP^PiPpPuP
+Q)Q0Q5QFQ_QfQrQ
+R#R(R9RQRXR]RnR}R
+S.S5S:SKSPS_SpS}S
+T$T)T3TDTITNTXT_T
+U]UmUtU~U
+W$W8WGWgW
+W%X@XYXtX
+X8YLY
+Z2ZVZhZ
+\8\N\
+_(_X_h_~_
+_Z`e`o`
+bac~c
+d;dHd^d}d
+l#l?lVlml
+l%mZm
+n!o(o=o
+p7qAq
+r@r\rur
+r	s s7sxs
+s$t~t
+w)wUwbwlwsw
+|$|8|K|U|Z|Y
+	`	g	
+ /#C#H#M#{#
+#)$]$
+$N%Y%g%r%J'
+,?-V-
+143T6
+@bAwA7B
+D&D+DgDnDwD|D
+DoF+G/G3G7G
+H	IzI J9JQJaJpJ6KKKPKZKlKqK{K
+K	L)LhMyM
+MANFN[NyN~N
+O&O+O5O<OAOVO[O`OrO
+Q+R6RERPR_RjRzR
+S1TDTVTiT(U7URU]U
+Y YDY`YpY
+ZBZMZWZ\ZwZ
+[2[U[q[|[
+\+\0\I\N\g\l\
+]$]A]F]c]h]
+^'^1^6^A^
+_=_B_g_y_
+_	`(`C`H`V`
+b*b/b>bIbSb
+c*c9cNc^cic
+e)e4e9ePe[e`e
+e*f5f:f
+g"g/g?gJgOgZg
+hmh~h
+i=iyi4p
+v4v>v\vlv
+w#wJwQw]wuw|w
+x"x,x+
+?	v	
+Y 9'@'N'h'o'|'
+)$)/)
+//0_0z0
+0*191C1{1
+212S2
+8b9l9z9
+98:M:]:
+:g;y;
+;	<?<S<]<k<
+<5=L=V=b=r=|=
+=_>u>
+A/ANAeA
+B5BaB*C
+N.O3OsO
+O(PePzP
+PXQvQ
+R>RdR
+YdYzY
+o4oKoZoko
+qrq+sFsusct
+w%wyx
+y1y6y;yPyZyxy
+y4zSzXz]z
+{P{U{Z{n{s{x{
+{2|b|
+}<}i}n}
